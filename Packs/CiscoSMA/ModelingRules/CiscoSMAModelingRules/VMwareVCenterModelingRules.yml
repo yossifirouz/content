@@ -1,0 +1,13 @@
+name: cisco
+id: CiscoSecurityManagementAppliance
+fromversion: 6.8.0
+tags: CiscoSecurityManagementAppliance
+rules: ''
+schema: |-
+  {
+    "CiscoSecurityManagementAppliance": {
+      "_raw_log": {
+        "type": "string",
+        "is_array": false
+      },
+  }
