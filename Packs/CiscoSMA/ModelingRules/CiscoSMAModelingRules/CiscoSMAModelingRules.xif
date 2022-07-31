@@ -101,6 +101,7 @@ filter _raw_log contains "mail_logs"
 ,XDM.Email.original_event_description=Message
 , XDM.Email.threat.severity =Alert_severity
 , XDM.Email.original_event_type= log_category
+,XDM.Email.subject= Subject
 , XDM.Email.Client.host.ipv4_addresses = arraycreate(coalesce(Source_ip, ""))
 , XDM.Email.message_id = Message_ID
 , XDM.Email.Server.host.hostname =Hostname
